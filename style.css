@@ -1,0 +1,109 @@
+/* Base Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F8F9FA;
+    color: #343A40;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    padding: 16px 32px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-text,
+.navbar-brand {
+    font-size: 22px;
+    font-weight: 600;
+    color: #007BFF;
+}
+
+/* Button Styling */
+#Abutton, #add {
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 8px;
+    width: 220px;
+    padding: 12px 20px;
+    margin: 25px auto;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s;
+    display: block;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+#Abutton:hover, #add:hover {
+    background-color: #17139e;
+    transform: translateY(-3px);
+}
+
+/* Cards / Sections */
+.col {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 28px 24px;
+    margin: 20px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
+}
+
+/* Section Headers */
+h2 {
+    background-color: #007BFF;
+    color: #FFFFFF;
+    padding: 16px 24px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+h5 {
+    color: #343A40;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+/* Attendance Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+}
+
+table th, table td {
+    padding: 14px 20px;
+    text-align: center;
+    border-bottom: 1px solid #dee2e6;
+}
+
+table th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: 600;
+}
+
+table tr:hover {
+    background-color: #E9F7FF;
+}
+
+/* Footer */
+footer {
+    background-color: #FFFFFF;
+    border-top: 1px solid #dee2e6;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+footer .text-muted {
+    font-size: 15px;
+    color: #6C757D;
+}
