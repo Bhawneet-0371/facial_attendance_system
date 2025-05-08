@@ -18,11 +18,7 @@ Software for Industry , where they can track the attendence of their employee wi
   - [x] Show attendence log on home for particular day
   - [ ] Recreate a HTML , bootstrap boilerplate and remove unwanted code
   - [ ] Show date and day on home page
-  - [ ] Company name should be visible on home page
-  - [ ] Show list of total Employee on home page
-  - [ ] Create a Admin panel
-  - [ ] Give various rights to admin 
-  - [ ] Work on UI
+  
 
 ## Features
 - Adding a New User
@@ -39,8 +35,6 @@ Software for Industry , where they can track the attendence of their employee wi
 
 -	Attendance of Users displayed
 
-## Installation
-- Explain how to install or set up the project.
 
 ## Usage
 - this is useful in tracking the attendence of your employees
